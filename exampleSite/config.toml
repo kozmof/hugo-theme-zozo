@@ -71,4 +71,4 @@ pygmentscodefencesguesssyntax = true
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
-  unsafe = true
+  unsafe = false
