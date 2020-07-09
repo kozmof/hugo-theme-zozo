@@ -6,9 +6,9 @@
         {{ partial "header.html" . }}
         <div class="content">
             <div class="page_tags">
-		<ul>
-    		    {{ range .Site.Taxonomies.tags }}
-		    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> <span class="terms_count">{{ .Count }}</span></li>
+		        <ul>
+    		        {{ range .Site.Taxonomies.tags }}
+		                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> <span class="terms_count">{{ .Count }}</span></li>
                     {{ end }}
                 </ul>
             </div>
