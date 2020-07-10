@@ -1,3 +1,5 @@
+Note: this theme is an alternative version of zozo.
+
 # Hugo Theme Zozo
 
 [![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE)
@@ -14,7 +16,6 @@ A simple and beautiful theme for Hugo
 + **Social links(Customize)**
 + **Tags page**
 + **Archive page**
-+ **Disqus and [Valine](https://valine.js.org/en/index.html) comment-system**
 + **Fancybox**
 + **GoogleAnalytics**
 
