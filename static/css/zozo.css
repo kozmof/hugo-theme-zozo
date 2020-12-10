@@ -68,10 +68,12 @@ hr {
 /*basic styles ends*/
 .main {
   background: #ffffff;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
-          box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
   width: 1000px;
   margin: 60px auto 0;
+  border-radius: 25px;
+  box-shadow:  20px 20px 60px rgba(226, 226, 226, 0.86), 
+              -20px -20px 60px  rgba(256, 256, 256, 0.86);
+  padding-bottom: 60px;
 }
 
 .content {
@@ -131,7 +133,7 @@ hr {
 
 .header {
   width: 720px;
-  padding: 50px 0 140px 0;
+  padding: 0 0 40px 0;
   margin: 0 auto;
   background-size: cover;
 }
@@ -268,7 +270,7 @@ hr {
 
 .post .post_footer {
   padding: 20px 0;
-  border-bottom: 1px solid #f3f3f3;
+  border-bottom: 0px;
 }
 
 .post .post_footer .meta {
@@ -297,7 +299,6 @@ hr {
 .post .post_footer .meta .tags a {
   text-decoration: none;
   padding-right: 6px;
-  background-color: #0f05c8;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -311,10 +312,13 @@ hr {
   text-align: center;
   font-size: 13px;
   font-weight: bold;
+  background: #5587f3;
+  box-shadow:  1px 1px 2px #f2f2f2, 
+              -1px -1px 2px #f2f2f2;
 }
 
 .post .post_footer .meta .tags a:hover {
-  color: #fff191;
+  color: #ffe852;
 }
 
 .page_tags {
