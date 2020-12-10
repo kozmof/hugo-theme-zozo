@@ -234,6 +234,27 @@ hr {
   font-size: 12px;
 }
 
+.post .post_title .meta .authors a {
+  text-decoration: none;
+  padding-right: 6px;
+  color: white;
+  border: none;
+  padding: 17px 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 10px;
+  padding-top: 1px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  background: #5587f3;
+  box-shadow:  1px 1px 2px #f2f2f2, 
+              -1px -1px 2px #f2f2f2;
+}
+
 .post .post_detail_title h2 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -270,7 +291,7 @@ hr {
 }
 
 .post .post_footer {
-  padding: 20px 0;
+  padding: 2px 0;
   border-bottom: 0px;
 }
 

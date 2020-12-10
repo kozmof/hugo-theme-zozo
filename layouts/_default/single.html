@@ -10,6 +10,16 @@
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+                        <div class="meta">
+                            <span>
+                                Author:
+                            </span>
+                            <span class="authors">
+                                {{ range .Param "authors" }}
+                                <a href="{{ "authors" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                                {{ end }}
+                            </span>
+                        </div>
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
                     <div class="post_footer">

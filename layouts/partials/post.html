@@ -3,6 +3,16 @@
 <div class="post animated fadeInDown">
     <div class="post_title">
         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
+        <div class="meta">
+            <span>
+                Author:
+            </span>
+            <span class="authors">
+                {{ range .Param "authors" }}
+                <a href="{{ "authors" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                {{ end }}
+            </span>
+        </div>
     </div>
     {{ if .Site.Params.enableSummary }}
     <div class="list">
