@@ -248,8 +248,9 @@ hr {
   height: 10px;
   padding-top: 1px;
   text-align: center;
+  border: 1px solid #c3cae2;
   font-size: 13px;
-  background: #f2fffc;
+  background: #edfffb;
   box-shadow:  1px 1px 2px #fefefe, 
               -1px -1px 2px #fbfbfb;
 }
