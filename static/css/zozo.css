@@ -396,6 +396,11 @@ hr {
   color: #1f1f1f;
 }
 
+.footer .back_home {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
 .footer .powered_by {
   margin: 0;
   font-size: 11px;
@@ -408,14 +413,6 @@ hr {
 
 .footer .powered_by a:hover {
   color: #1f1f1f;
-}
-
-.footer .footer_slogan {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: 1px;
 }
 
 /*for archive*/
