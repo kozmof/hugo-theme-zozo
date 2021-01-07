@@ -1,12 +1,12 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
-        <div class="content">
+        <div class="content single">
             <div class="post_page">
-                <div class="post animate__animated animate__fadeInDown">
+                <div class="post">
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "2006.01.02" }}</span>
@@ -19,27 +19,53 @@
                                 <a href="{{ "authors" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                                 {{ end }}
                             </span>
+                            <span class="social">
+                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </span>
                         </div>
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
                     <div class="post_footer">
-                        {{ with .Params.tags }}
                         <div class="meta">
                             <div class="info">
+                                {{ with .Params.tags }}
                                 <span class="field tags">
                                     <i class="ri-stack-line"></i>
                                     {{ range . }}
                                     <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                                     {{ end }}
                                 </span>
+                                {{ end }}
+
+                                <hr class="separator1">
+                                <h3>Related Posts</h3>
+                                {{ $related := .Site.RegularPages.Related . | first 3 }}
+                                {{ with $related }}
+                                <span class="field related_posts">
+                                    {{ range . }}
+                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                    {{ end }}
+                                </span>
+                                {{ end }}
+                                <hr class="separator2">
+                                <h3>Recent Posts</h3>
+                                {{ $recent := where .Site.RegularPages "Section" "in" (.Site.Params.postSections | default (slice "posts")) | first 3 }}
+                                {{ with $recent }}
+                                <span class="field recent_posts">
+                                    {{ range . }}
+                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                    {{ end }}
+                                </span>
+                                {{ end }}
                             </div>
                         </div>
-                        {{ end }}
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     {{ partial "footer.html" . }}
 </body>
 
@@ -49,5 +75,4 @@
   };
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
 </html>
