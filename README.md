@@ -61,12 +61,6 @@ This theme provides valine comment system, the default is closed, if you want to
 
 Set the `enable = true` under `[params.valine]` to open valine, and will be `appId` and `appKey` set for yourself.
 
-### Social Link Icons
-
-You can add a social link panel in the header by adding entries to the social block in the `config.toml`.
-
-[Remix icon](https://remixicon.com/) is used in this theme.
-
 ### Nearly Finished
 
 In order to see your site in action, run Hugo's built-in local server.

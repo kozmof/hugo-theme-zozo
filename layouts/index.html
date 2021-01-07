@@ -1,14 +1,21 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main">
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
-        <div class="content">
+        <div class="content top">
             {{ partial "post.html" .}}
         </div>
     </div>
     {{ partial "footer.html" . }}
 </body>
 
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: '{{ .Site.Params.gitterRoom }}'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 </html>
+
