@@ -5,7 +5,6 @@ hidden: false
 draft: true
 tags: []
 keywords: []
-description: ""
-slug: ""
+authors: []
 ---
 

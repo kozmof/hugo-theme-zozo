@@ -1,13 +1,47 @@
 ---
-title: "关于"
+title: "About"
 date: 2018-12-29T20:24:28+08:00
 hidden: true
 draft: false
+authors: ["Plato"]
 ---
 
-Hugo 官方主页: [https://gohugo.io/](https://gohugo.io/)
+## THE REPUBLIC
 
-Hugo的安装方式有两种，一种是直接下载编译好的Hugo二进制文件。如果只是使用Hugo推荐用这种方式。另一种方式是获取Hugo的源码，自己编译。由于各种不可预料的网络问题，第二种方式不是那么轻易能成功，虽然最后我还是折腾出来了。
+I went down yesterday to the Piraeus with Glaucon the son of Ariston, that I might offer up my prayers to the goddess (Bendis, the Thracian Artemis.); and also because I wanted to see in what manner they would celebrate the festival, which was a new thing. I was delighted with the procession of the inhabitants; but that of the Thracians was equally, if not more, beautiful. When we had finished our prayers and viewed the spectacle, we turned in the direction of the city; and at that instant Polemarchus the son of Cephalus chanced to catch sight of us from a distance as we were starting on our way home, and told his servant to run and bid us wait for him. The servant took hold of me by the cloak behind, and said: Polemarchus desires you to wait.
 
-Hugo二进制下载地址: [https://github.com/gohugoio/hugo/releases](https://github.com/gohugoio/hugo/releases)
+I turned round, and asked him where his master was.
 
+There he is, said the youth, coming after you, if you will only wait.
+
+Certainly we will, said Glaucon; and in a few minutes Polemarchus appeared, and with him Adeimantus, Glaucon's brother, Niceratus the son of Nicias, and several others who had been at the procession.
+
+Polemarchus said to me: I perceive, Socrates, that you and your companion are already on your way to the city.
+
+You are not far wrong, I said.
+
+But do you see, he rejoined, how many we are?
+
+Of course.
+
+And are you stronger than all these? for if not, you will have to remain where you are.
+
+May there not be the alternative, I said, that we may persuade you to let us go?
+
+But can you persuade us, if we refuse to listen to you? he said.
+
+Certainly not, replied Glaucon.
+
+Then we are not going to listen; of that you may be assured.
+
+Adeimantus added: Has no one told you of the torch-race on horseback in honour of the goddess which will take place in the evening?
+
+With horses! I replied: That is a novelty. Will horsemen carry torches and pass them one to another during the race?
+
+Yes, said Polemarchus, and not only so, but a festival will be celebrated at night, which you certainly ought to see. Let us rise soon after supper and see this festival; there will be a gathering of young men, and we will have a good talk. Stay then, and do not be perverse.
+
+Glaucon said: I suppose, since you insist, that we must.
+
+Very good, I replied.
+
+https://www.gutenberg.org/ebooks/1497

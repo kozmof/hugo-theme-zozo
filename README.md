@@ -1,8 +1,8 @@
-Note: this theme is an alternative version of zozo.
-
 ## Hugo Theme Zozo
 
-[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/imzeuk/hugo-theme-zozo.svg?color=4664DA&style=flat-square)](https://github.com/kozmof/hugo-theme-zozo/blob/master/LICENSE)
+
+> NOTE: This theme is an alternative version of [Zozo](https://github.com/varkai/hugo-theme-zozo).
 
 A simple and beautiful theme for Hugo
 
@@ -12,23 +12,14 @@ A simple and beautiful theme for Hugo
 
 + **Responsive**
 + **Syntax highlighting with highlightjs**
-+ **Math with mathjax** 
-+ **Social links(Customize)**
++ **Author page**
 + **Tags page**
-+ **Archive page**
-+ **Fancybox**
-+ **GoogleAnalytics**
-
-[Demo](https://zozo.varkai.com) | [中文说明](./README-zh.md)
-
-### Sceenshots
-
-![zozo](./images/showcase.png)
++ **Gitter**
 
 ### Installation
 
 ```bash
-$ git clone https://github.com/varkai/hugo-theme-zozo themes/zozo
+$ git clone https://github.com/kozmof/hugo-theme-zozo.git themes/zozo
 ```
 
 **Important**: Take a look inside the [`exampleSite`](./exampleSite) folder of this theme. You'll find a file called [`config.toml`](./exampleSite/config.toml). To use it, copy the [`config.toml`](./exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change it.
@@ -49,18 +40,6 @@ This theme provides `img` shortcodes.
 {{< img src="path/to/xxx.png" >}}
 ```
 
-### MathJax
-
-This theme supports MathJax, which are turned off by default. If you want to use them, you need to set them in `config.toml`.
-
-Set `mathjax = true` under the `[params]` to support the MathJax.
-
-### Valine Comment System
-
-This theme provides valine comment system, the default is closed, if you want to use, need to set in `config. toml`.
-
-Set the `enable = true` under `[params.valine]` to open valine, and will be `appId` and `appKey` set for yourself.
-
 ### Nearly Finished
 
 In order to see your site in action, run Hugo's built-in local server.
@@ -73,7 +52,7 @@ Now enter `localhost:1313` in the address bar of your browser.
 
 ### License
 
-Released under the [MIT](https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE) License.
+Released under the [MIT](https://github.com/kozmof/hugo-theme-zozo/blob/master/LICENSE) License.
 
 ### Acknowledgements
 

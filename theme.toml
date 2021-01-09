@@ -3,19 +3,19 @@
 
 name = "Zozo"
 license = "MIT"
-licenselink = "https://github.com/varkai/hugo-theme-zozo/blob/master/LICENSE"
+licenselink = "https://github.com/kozmof/hugo-theme-zozo/blob/master/LICENSE"
 description = "A simple and beautiful theme for Hugo"
-homepage = "https://github.com/varkai/hugo-theme-zozo"
+homepage = "https://github.com/kozmof/hugo-theme-zozo"
 tags = ["blog", "beautiful", "simple", "valine", "rss", "syntax highlighting", "tags"]
 features = ["blog", "beautiful", "simple", "valine", "rss", "syntax highlighting", "tags"]
 min_version = "0.58"
 
 [author]
-  name = "VarKai"
-  homepage = "https://varkai.com"
+  name = "Kozo Oeda"
+  homepage = ""
 
 # If porting an existing theme
 [original]
-  name = "Aragaki"
-  homepage = "https://www.mywpku.com/"
-  repo = "https://github.com/PCDotFan/Aragaki"
+  name = "VarKai"
+  homepage = "https://varkai.com"
+  repo = "https://github.com/varkai/hugo-theme-zozo"
