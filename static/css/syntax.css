@@ -57,7 +57,7 @@
 /* LiteralNumberInteger */ .chroma .mi { color: #009999 }
 /* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
 /* LiteralNumberOct */ .chroma .mo { color: #009999 }
-/* Operator */ .chroma .o { color: #2cb2ff; font-weight: bold }
+/* Operator */ .chroma .o { color: #2cb2ff }
 /* OperatorWord */ .chroma .ow { color: #2cb2ff; font-weight: bold }
 /* Punctuation */ .chroma .p {  }
 /* Comment */ .chroma .c { color: #999988; font-style: italic }
