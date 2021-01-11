@@ -138,6 +138,8 @@ hr {
 
 .header .site_title_container {
   padding: 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header .site_title_container h1 {
@@ -148,7 +150,6 @@ hr {
 .header .site_title_container a {
   text-decoration: none;
   font-weight: bold;
-  float: left;
 }
 
 .header .site_title_container .site_title a {
@@ -170,24 +171,12 @@ hr {
 .header .site_title_container .description {
   font-size: 0.9rem;
   color: #565654;
-  float: right;
-}
-
-.header .site_title_container .description .sub_title {
-  font-weight: normal !important;
-  float: none !important;
-  text-align: right;
 }
 
 .header .my_socials {
   list-style: none;
   font-size: 14px;
-  float: right;
-  margin: 5px 0;
-}
-
-.header .my_socials i {
-  margin-left: 10px;
+  margin: 10px 35px;
 }
 
 .header .my_socials a {
@@ -694,31 +683,6 @@ table th, table td {
   border: 1px solid #dfe2e5;
 }
 
-
-@media print, screen and (max-width: 680px) {
-  .nav_container {
-    position: relative;
-    z-index: 999;
-  }
-  .nav_container .site_nav {
-    display: none;
-    position: fixed;
-    right: 0;
-    top: 60px;
-    padding: 10px 0;
-    width: 100%;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
-            box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
-  }
-  .nav_container .site_nav ul {
-    float: none;
-    text-align: center;
-  }
-  .nav_container .site_nav li {
-    float: none;
-  }
-}
 
 @media screen and (min-width: 1600px) {
   .main {
