@@ -10,6 +10,9 @@
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+                        <span class="social">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </span>
                         <div class="meta">
                             <span>
                                 Author:
@@ -18,9 +21,6 @@
                                 {{ range .Param "authors" }}
                                 <a href="{{ "authors" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                                 {{ end }}
-                            </span>
-                            <span class="social">
-                                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </span>
                         </div>
                     </div>

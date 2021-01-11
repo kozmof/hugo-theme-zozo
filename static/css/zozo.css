@@ -138,6 +138,8 @@ hr {
 
 .header .site_title_container {
   padding: 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header .site_title_container h1 {
@@ -148,7 +150,6 @@ hr {
 .header .site_title_container a {
   text-decoration: none;
   font-weight: bold;
-  float: left;
 }
 
 .header .site_title_container .site_title a {
@@ -170,24 +171,12 @@ hr {
 .header .site_title_container .description {
   font-size: 0.9rem;
   color: #565654;
-  float: right;
-}
-
-.header .site_title_container .description .sub_title {
-  font-weight: normal !important;
-  float: none !important;
-  text-align: right;
 }
 
 .header .my_socials {
   list-style: none;
   font-size: 14px;
-  float: right;
-  margin: 5px 0;
-}
-
-.header .my_socials i {
-  margin-left: 10px;
+  margin: 10px 35px;
 }
 
 .header .my_socials a {
@@ -221,6 +210,7 @@ hr {
   color: #1f1f1f;
   font-size: 1.5rem;
   line-height: 28px;
+  word-wrap: break-word;
 }
 
 .post .post_title span {
@@ -232,10 +222,9 @@ hr {
   font-size: 12px;
 }
 
-.post .post_title .meta span.social {
+.post .post_title span.social {
   position: absolute;
-  margin-top: 13px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .post .post_title .meta .authors a {
@@ -352,6 +341,7 @@ hr {
   font-size: 13px;
   background: #ffffff;
   border: 1px solid #4e4e4e;
+  word-break: break-word;
 }
 
 .post .post_footer .meta .recent_posts a {
@@ -369,6 +359,7 @@ hr {
   font-size: 13px;
   background: #ffffff;
   border: 1px solid #4e4e4e;
+  word-break: break-word;
 }
 
 .post .post_footer .meta .separator1 {
@@ -513,6 +504,7 @@ hr {
 }
 
 .pagination {
+  margin-top: 100px;
   padding: 30px 0 60px 0;
   border-bottom: 1px solid #f2f2f2;
   color: #666666;
@@ -520,12 +512,16 @@ hr {
 }
 
 .pagination a {
-  color: #888888;
+  padding: 8px 10px;
+  border-radius: 20px;
+  background-color: rgb(77, 124, 255);
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .pagination a:hover {
-  color: #333333;
+  color: #f7f7f7;
 }
 
 .pagination .pre {
@@ -688,31 +684,6 @@ table th, table td {
   border: 1px solid #dfe2e5;
 }
 
-
-@media print, screen and (max-width: 680px) {
-  .nav_container {
-    position: relative;
-    z-index: 999;
-  }
-  .nav_container .site_nav {
-    display: none;
-    position: fixed;
-    right: 0;
-    top: 60px;
-    padding: 10px 0;
-    width: 100%;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
-            box-shadow: 0 10px 20px 0 rgba(236, 236, 236, 0.86);
-  }
-  .nav_container .site_nav ul {
-    float: none;
-    text-align: center;
-  }
-  .nav_container .site_nav li {
-    float: none;
-  }
-}
 
 @media screen and (min-width: 1600px) {
   .main {
