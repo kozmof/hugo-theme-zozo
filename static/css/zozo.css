@@ -221,6 +221,7 @@ hr {
   color: #1f1f1f;
   font-size: 1.5rem;
   line-height: 28px;
+  word-wrap: break-word;
 }
 
 .post .post_title span {
@@ -351,6 +352,7 @@ hr {
   font-size: 13px;
   background: #ffffff;
   border: 1px solid #4e4e4e;
+  word-break: break-word;
 }
 
 .post .post_footer .meta .recent_posts a {
@@ -368,6 +370,7 @@ hr {
   font-size: 13px;
   background: #ffffff;
   border: 1px solid #4e4e4e;
+  word-break: break-word;
 }
 
 .post .post_footer .meta .separator1 {
